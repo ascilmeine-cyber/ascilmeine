@@ -1,0 +1,9 @@
+citye, adress, type_land, sal, type_sal, tgset_frst, tgset_evry_yer_mon, sal_tgset, land_mater, land_fot, land_der, land_ads, img1, img2, img3, img4, img5, img6, img7, img8, map
+
+
+$citye, $adress, $type_land, $sal, type_sal, $tgset_frst, $tgset_evry_yer_mon, sal_tgset, $land_mater, $land_fot, $land_der, $land_ads, $img1, $img2, $img3, $img4, $img5, $img6, $img7, $img8, $map
+
+"sssssdsssssssssssssss"
+
+(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+________________________________________________________________________________
