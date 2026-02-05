@@ -328,5 +328,36 @@ body{
     transform:scale(1.1);
 }
 </style>
+	<button onclick="sharePage()" class="share-btn">مشاركة الصفحة</button>
+
+<script>
+function sharePage() {
+    if (navigator.share) {
+        navigator.share({
+            title: document.title,
+            text: 'شاهد هذا الرابط',
+            url: window.location.href
+        });
+    } else {
+        alert("المتصفح لا يدعم خاصية المشاركة");
+    }
+}
+</script>
+
+<style>
+.share-btn {
+    background: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.share-btn:hover {
+    background: #1ebe5d;
+}
+</style>
 </html>
+
 
